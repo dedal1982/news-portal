@@ -302,21 +302,51 @@ input::placeholder {
   height: 88px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 20px 0 0 0;
   padding-left: 27px;
-  padding-right: 20px;
+  padding-right: 30px;
   box-sizing: border-box;
 }
-.main__top ul {
+.main__top-list {
   display: flex;
   align-items: center;
   gap: 43px;
 }
-.main__top ul li {
+.main__top-list li {
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 12px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434bf;
+  letter-spacing: -0.02rem;
+}
+.main__drop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434bf;
+  letter-spacing: -0.02rem;
+  cursor: pointer;
+  position: relative;
+}
+.main__drop-list {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+.main__drop-list.active {
+  display: flex;
+}
+.main__drop-list li a {
   font-family: "Inter", serif;
   font-weight: 400;
   font-size: 16px;
