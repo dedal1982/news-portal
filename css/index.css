@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @font-face {
   font-family: "SF Pro Text";
   src: url("../fonts/sf-pro-text-9.ttf") format("truetype");
@@ -511,4 +512,14 @@ input::placeholder {
   line-height: 30px;
   color: #fefefe;
   letter-spacing: -0.02rem;
+}
+.main__news-des {
+  max-width: 530px;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #343434bf;
+  margin: 23px auto 0 20px;
 }
