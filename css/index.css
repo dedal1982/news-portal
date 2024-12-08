@@ -486,6 +486,7 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 7px;
   margin-top: auto;
   z-index: 2;
 }
@@ -496,10 +497,18 @@ input::placeholder {
   background: #f0ac3e;
   font-family: "SF Pro Text", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 14.32px;
   color: #fff;
   white-space: nowrap;
   padding: 5px 6px;
   width: fit-content;
+}
+.main__news-banner-text h2 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 30px;
+  color: #fefefe;
+  letter-spacing: -0.02rem;
 }
