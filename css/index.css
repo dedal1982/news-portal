@@ -296,6 +296,9 @@ input::placeholder {
   background: #f6f6f6;
   height: 976px;
   border-radius: 20px 0 0 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
 }
 .main__top {
   width: 100%;
@@ -304,8 +307,8 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   border-radius: 20px 0 0 0;
-  padding-left: 27px;
-  padding-right: 30px;
+  padding-left: 14px;
+  padding-right: 14px;
   box-sizing: border-box;
   border-bottom: 1px solid #bdbdbd;
 }
@@ -374,4 +377,7 @@ input::placeholder {
   letter-spacing: -0.02rem;
   display: flex;
   align-items: center;
+}
+.main__banner {
+  width: ;
 }
