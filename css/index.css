@@ -378,6 +378,33 @@ input::placeholder {
   display: flex;
   align-items: center;
 }
+.main__inner {
+  width: 100%;
+  padding: 21px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
 .main__banner {
-  width: ;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(104.56deg, #47bce6 18.71%, #2871c8 90.38%);
+  padding: 42px 22px 22px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.main__banner-text {
+  max-width: 422px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main__banner-text h1 {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 48.51px;
+  color: #fff;
+  letter-spacing: -0.02rem;
 }
