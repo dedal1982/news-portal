@@ -330,9 +330,6 @@ input::placeholder {
   color: #343434bf;
   letter-spacing: -0.02rem;
 }
-/* .main__top-list li.active {
-  border-bottom: 4px solid #47bce6;
-} */
 .main__drop {
   display: flex;
   align-items: center;
