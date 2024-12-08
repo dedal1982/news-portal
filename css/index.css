@@ -408,3 +408,27 @@ input::placeholder {
   color: #fff;
   letter-spacing: -0.02rem;
 }
+.main__banner-text p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18.67px;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: -0.02rem;
+  margin-top: 5px;
+}
+.main__banner-text a {
+  width: 206px;
+  height: 48px;
+  border-radius: 12px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #47bce6;
+  margin-top: 52px;
+}
