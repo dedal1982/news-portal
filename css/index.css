@@ -249,3 +249,43 @@ input::placeholder {
   width: 40px;
   height: 40px;
 }
+.aside__progress-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.aside__progress-items span {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #fff;
+}
+.aside__progress-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aside__progress-inner p {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #fff;
+}
+.aside__progress-bar {
+  width: 100%;
+  height: 9px;
+  border-radius: 100px;
+  background: #ffffff;
+  display: flex;
+}
+.aside__progress-bar span {
+  display: inline-block;
+  width: 123.7px;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(270deg, #f0ac3e 50%, #f0ac3e 100%);
+}
