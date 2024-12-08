@@ -236,7 +236,7 @@ input::placeholder {
   height: 78px;
   background: #47bce6;
   border-radius: 17px;
-  margin-top: 85px;
+  margin-top: auto;
   margin-left: 4px;
   display: flex;
   align-items: center;
@@ -288,4 +288,11 @@ input::placeholder {
   height: 100%;
   border-radius: inherit;
   background: linear-gradient(270deg, #f0ac3e 50%, #f0ac3e 100%);
+}
+/*main*/
+.main {
+  max-width: 744px;
+  width: 100%;
+  background: #f6f6f6;
+  height: 976px;
 }
