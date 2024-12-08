@@ -346,6 +346,14 @@ input::placeholder {
   cursor: pointer;
   position: relative;
 }
+.main__drop img {
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease-out;
+}
+.main__drop img.active {
+  transform: rotate(180deg);
+}
 .main__drop-list {
   display: none;
   flex-direction: column;
