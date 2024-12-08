@@ -351,11 +351,13 @@ input::placeholder {
   flex-direction: column;
   position: absolute;
   top: 40px;
+  left: -26px;
   background: #fff;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+  z-index: 10;
 }
 .main__drop-list.active {
   display: flex;
@@ -381,10 +383,16 @@ input::placeholder {
 }
 .main__inner {
   width: 100%;
+  max-height: 888px;
+  overflow: auto;
   padding: 21px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  scrollbar-width: none;
+}
+.main__inner::-webkit-scrollbar {
+  width: 0;
 }
 .main__banner {
   width: 100%;
@@ -541,10 +549,28 @@ input::placeholder {
   color: #666666;
   margin-bottom: 6px;
 }
-.main__news-survey p {
+.main__news-survey p,
+.main__news-survey label {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   color: #343434bf;
+}
+fieldset {
+  margin-top: 17px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.survey-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.survey-item input {
+  width: 16px;
+  height: 16px;
+  border: none;
 }
