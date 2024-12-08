@@ -523,3 +523,28 @@ input::placeholder {
   color: #343434bf;
   margin: 23px auto 0 20px;
 }
+.main__news-survey {
+  width: 100%;
+  border-radius: 12px;
+  background: #eeeeee99;
+  display: flex;
+  flex-direction: column;
+  padding: 19px;
+  box-sizing: border-box;
+  margin-top: 23px;
+}
+.main__news-survey h3 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 6px;
+}
+.main__news-survey p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #343434bf;
+}
