@@ -91,6 +91,7 @@ h1 {
 @media screen and (max-width: 767px) {
   .aside {
     display: none;
+    margin-bottom: 80px;
   }
 }
 .aside__top {
@@ -327,6 +328,8 @@ input:focus::placeholder {
 @media screen and (max-width: 767px) {
   .main {
     background: #fff;
+    border-radius: 0;
+    margin-bottom: 80px;
   }
 }
 .main__top {
@@ -346,6 +349,8 @@ input:focus::placeholder {
     height: 56px;
     padding-top: 15px;
     padding-right: 43px;
+    background: #f3f3f3;
+    border-radius: 0;
   }
 }
 .main__top-list {
@@ -739,6 +744,9 @@ fieldset {
 @media screen and (max-width: 767px) {
   .right-aside {
     display: none;
+    max-width: 100%;
+    margin-bottom: 80px;
+    border-radius: 0;
   }
 }
 .right-aside__top {
@@ -1063,6 +1071,7 @@ input:focus::placeholder {
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
+    background: #f3f3f3;
   }
   .main-mobile-top span {
     font-family: "SF Pro Text", sans-serif;

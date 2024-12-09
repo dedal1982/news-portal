@@ -60,3 +60,22 @@ if (recoveryBack) {
     eventsListTypeYellow.classList.remove("active");
   });
 }
+
+const sProfile = document.getElementById("s-profile");
+const sMain = document.getElementById("s-main");
+const mainPage = document.querySelector(".main");
+const asidePage = document.querySelector(".right-aside");
+
+if (sProfile) {
+  sProfile.addEventListener("click", () => {
+    mainPage.style.display = "none";
+    asidePage.style.display = "flex";
+  });
+}
+
+if (sMain) {
+  sMain.addEventListener("click", () => {
+    mainPage.style.display = "block";
+    asidePage.style.display = "none";
+  });
+}
