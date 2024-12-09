@@ -665,6 +665,36 @@ fieldset {
 .profile-wrap.active {
   display: none;
 }
+.profile-wrap__recovery {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.profile-wrap__recovery.active {
+  display: flex;
+}
+.recovery-top {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #141718;
+}
+.recovery-top img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 .profile-tabs {
   width: 100%;
   height: 48px;

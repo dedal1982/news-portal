@@ -42,9 +42,18 @@ makeCodeUniversal(".profile-tab", ".profile-form");
 
 const forgotPassword = document.querySelector(".profile-form p");
 const profileWrap = document.querySelector(".profile-wrap");
+const profileRecovery = document.querySelector(".profile-wrap__recovery");
+const recoveryBack = document.querySelector(".recovery-top img");
 
 if (forgotPassword) {
   forgotPassword.addEventListener("click", () => {
     profileWrap.classList.add("active");
+    profileRecovery.classList.add("active");
+  });
+}
+if (recoveryBack) {
+  recoveryBack.addEventListener("click", () => {
+    profileWrap.classList.remove("active");
+    profileRecovery.classList.remove("active");
   });
 }
