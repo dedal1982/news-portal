@@ -884,3 +884,14 @@ input:focus::placeholder {
   line-height: 20px;
   color: #343434bf;
 }
+.events-list_type-yellow {
+  display: none;
+}
+.events-list_type-yellow.active {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.events-list_type-yellow .events-list-item {
+  background: #f0ac3ebf;
+}
