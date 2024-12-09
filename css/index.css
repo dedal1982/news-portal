@@ -644,3 +644,27 @@ fieldset {
   width: 24px;
   height: 24px;
 }
+.right-aside__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.profile-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.profile-tabs {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  background: #f3f5f7;
+}
