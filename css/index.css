@@ -77,6 +77,11 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1280px) {
+  .aside {
+    max-width: 280px;
+  }
+}
 .aside__top {
   width: 100%;
   display: flex;
@@ -113,6 +118,11 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+@media screen and (max-width: 1280px) {
+  .aside__name {
+    font-size: 22px;
+  }
 }
 .aside__name p {
   font-family: "SF Pro Text", sans-serif;
@@ -451,7 +461,7 @@ input:focus::placeholder {
   right: 70px;
   top: 23px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1415px) {
   .main__banner-image {
     width: 235px;
     height: 218px;
@@ -510,12 +520,6 @@ input:focus::placeholder {
   background-size: cover;
   background-position: center;
 }
-/* .main__news-banner img {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-} */
 .main__news-banner-text {
   max-width: 500px;
   width: 100%;
@@ -611,6 +615,11 @@ fieldset {
   background: #f6f6f6;
   border-left: 1px solid #bdbdbd;
   border-radius: 0 20px 20px 0;
+}
+@media screen and (max-width: 1280px) {
+  .right-aside {
+    max-width: 280px;
+  }
 }
 .right-aside__top {
   width: 100%;
