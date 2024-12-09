@@ -672,6 +672,12 @@ input:focus::placeholder {
   color: #343434bf;
   margin: 23px auto 0 20px;
 }
+@media screen and (max-width: 767px) {
+  .main__news-des {
+    max-width: 346px;
+    margin: 11px auto 0 7px;
+  }
+}
 .main__news-survey {
   width: 100%;
   border-radius: 12px;
