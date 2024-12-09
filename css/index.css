@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  /* border: 0.5px solid red; */
 }
 html {
   scroll-behavior: smooth;
@@ -483,9 +483,6 @@ input:focus::placeholder {
   height: 277px;
   border-radius: 15px;
   position: relative;
-  padding-left: 18px;
-  padding-bottom: 23px;
-  box-sizing: border-box;
   display: flex;
 }
 .main__news-banner img {
@@ -500,7 +497,7 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
   gap: 7px;
-  margin-top: auto;
+  margin: auto auto 23px 18px;
   z-index: 2;
 }
 .main__news-banner-text span {
