@@ -690,10 +690,13 @@ fieldset {
 }
 .profile-form {
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 16px;
   margin-top: 24px;
+}
+.profile-form.active {
+  display: flex;
 }
 .profile-input-wrap {
   width: 100%;
@@ -730,13 +733,13 @@ input:focus::placeholder {
   left: 24px;
   transform: translate(-50%, -50%);
 }
-.profile-input-wrap p {
+.profile-form p {
   font-family: "Inter", serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   color: #47bce6;
-  margin-top: 7px;
+  margin-top: -9px;
 }
 .profile-form button {
   width: 100%;
@@ -748,5 +751,5 @@ input:focus::placeholder {
   font-size: 16px;
   line-height: 24px;
   color: #fefefe;
-  margin-top: 36px;
+  margin-top: 7px;
 }

@@ -8,3 +8,33 @@ if (dropButton) {
     dropArrow.classList.toggle("active");
   });
 }
+
+const makeCodeUniversal = (
+  tabItemsQuery,
+  formItemsQuery,
+  tabClassName = "active"
+) => {
+  const tabItems = Array.from(document.querySelectorAll(tabItemsQuery));
+  const formItems = Array.from(document.querySelectorAll(formItemsQuery));
+
+  const clearActiveTabs = (element) => {
+    element.find((item) => item.classList.remove(tabClassName));
+  };
+
+  const setActiveTab = (element, index) => {
+    element[index].classList.add(tabClassName);
+  };
+
+  const chekTab = (item, index) => {
+    item.addEventListener("click", () => {
+      clearActiveTabs(tabItems);
+      clearActiveTabs(formItems);
+
+      setActiveTab(tabItems, index);
+      setActiveTab(formItems, index);
+    });
+  };
+  tabItems.forEach(chekTab);
+};
+// /*табы / форма вход / регистрация*/
+makeCodeUniversal(".profile-tab", ".profile-form");
