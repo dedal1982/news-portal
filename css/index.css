@@ -300,6 +300,8 @@ input:focus::placeholder {
   width: 100%;
   background: #f6f6f6;
   border-radius: 20px 0 0 20px;
+  max-height: 976px;
+  overflow: hidden;
 }
 .main__top {
   width: 100%;
@@ -388,17 +390,15 @@ input:focus::placeholder {
 }
 .main__inner {
   width: 100%;
-  max-height: 888px;
-  overflow: auto;
   padding: 21px 14px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
-.main__inner::-webkit-scrollbar {
+/* .main__inner::-webkit-scrollbar {
   width: 0;
-}
+} */
 .main__banner {
   width: 100%;
   display: flex;
