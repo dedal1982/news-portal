@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 html {
   scroll-behavior: smooth;
@@ -40,6 +41,7 @@ button {
   overflow: hidden;
 }
 .page {
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
