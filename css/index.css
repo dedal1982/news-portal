@@ -585,6 +585,7 @@ fieldset {
   flex-direction: column;
   background: #f6f6f6;
   border-left: 1px solid #bdbdbd;
+  border-radius: 0 20px 20px 0;
 }
 .right-aside__top {
   width: 100%;
@@ -802,6 +803,12 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-height: 340px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.events-list::-webkit-scrollbar {
+  width: 0;
 }
 .events-list-item {
   width: 100%;
@@ -812,6 +819,7 @@ input:focus::placeholder {
   flex-direction: column;
   gap: 4px;
   padding: 12px;
+  padding-right: 9px;
   box-sizing: border-box;
 }
 .events-list-item h4 {
