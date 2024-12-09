@@ -9,6 +9,7 @@ if (dropButton) {
   });
 }
 
+// функция переключения табов
 const makeCodeUniversal = (
   tabItemsQuery,
   formItemsQuery,

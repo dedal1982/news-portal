@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @font-face {
   font-family: "SF Pro Text";
   src: url("../fonts/sf-pro-text-9.ttf") format("truetype");
@@ -764,4 +765,21 @@ input:focus::placeholder {
   font-size: 16px;
   line-height: 24px;
   color: #343434;
+}
+.right-aside__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.right-aside__items a {
+  padding: 3.5px 12px;
+  background: #aeaeae;
+  border-radius: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16.8px;
+  color: #fff;
+  letter-spacing: -0.01rem;
 }
