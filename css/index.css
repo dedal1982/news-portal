@@ -71,6 +71,12 @@ h1 {
   border-radius: 24px;
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  .content {
+    border-radius: 0;
+    padding: 0;
+  }
+}
 .aside {
   max-width: 320px;
   width: 100%;
@@ -80,6 +86,11 @@ h1 {
 @media screen and (max-width: 1280px) {
   .aside {
     max-width: 280px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aside {
+    display: none;
   }
 }
 .aside__top {
@@ -313,6 +324,11 @@ input:focus::placeholder {
   max-height: 976px;
   overflow: hidden;
 }
+@media screen and (max-width: 767px) {
+  .main {
+    background: #fff;
+  }
+}
 .main__top {
   width: 100%;
   height: 88px;
@@ -325,10 +341,24 @@ input:focus::placeholder {
   box-sizing: border-box;
   border-bottom: 1px solid #bdbdbd;
 }
+@media screen and (max-width: 767px) {
+  .main__top {
+    height: 56px;
+    padding-top: 15px;
+    padding-right: 43px;
+  }
+}
 .main__top-list {
   display: flex;
   align-items: center;
   gap: 43px;
+}
+@media screen and (max-width: 1150px) {
+  .main__top-list {
+    width: 100%;
+    justify-content: space-between;
+    gap: 32px;
+  }
 }
 .main__top-list li {
   cursor: pointer;
@@ -354,6 +384,11 @@ input:focus::placeholder {
   letter-spacing: -0.02rem;
   cursor: pointer;
   position: relative;
+}
+@media screen and (max-width: 1150px) {
+  .main__drop {
+    display: none;
+  }
 }
 .main__drop img {
   width: 20px;
@@ -405,6 +440,11 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 767px) {
+  .main__inner {
+    padding: 16px 8.5px;
+  }
+}
 .main__banner {
   width: 100%;
   display: flex;
@@ -416,11 +456,21 @@ input:focus::placeholder {
   position: relative;
   overflow: hidden;
 }
+@media screen and (max-width: 767px) {
+  .main__banner {
+    padding: 26px 18px 44px 18px;
+  }
+}
 .main__banner-text {
   max-width: 422px;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .main__banner-text {
+    max-width: 257px;
+  }
 }
 .main__banner-text h1 {
   font-family: "Inter", serif;
@@ -430,6 +480,12 @@ input:focus::placeholder {
   color: #fff;
   letter-spacing: -0.02rem;
 }
+@media screen and (max-width: 767px) {
+  .main__banner-text h1 {
+    font-size: 31px;
+    line-height: 27.72px;
+  }
+}
 .main__banner-text p {
   font-family: "Inter", serif;
   font-weight: 400;
@@ -438,6 +494,11 @@ input:focus::placeholder {
   color: #fff;
   letter-spacing: -0.02rem;
   margin-top: 5px;
+}
+@media screen and (max-width: 767px) {
+  .main__banner-text p {
+    margin-top: 10px;
+  }
 }
 .main__banner-text a {
   width: 206px;
@@ -453,6 +514,14 @@ input:focus::placeholder {
   line-height: 24px;
   color: #47bce6;
   margin-top: 52px;
+}
+@media screen and (max-width: 767px) {
+  .main__banner-text a {
+    width: 190px;
+    height: 36px;
+    margin-top: 24px;
+    font-size: 14px;
+  }
 }
 .main__banner-image {
   width: 275px;
@@ -619,6 +688,11 @@ fieldset {
 @media screen and (max-width: 1280px) {
   .right-aside {
     max-width: 280px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .right-aside {
+    display: none;
   }
 }
 .right-aside__top {
@@ -928,4 +1002,36 @@ input:focus::placeholder {
 }
 .events-list_type-yellow .events-list-item {
   background: #f0ac3ebf;
+}
+/*main-mobile-top*/
+.main-mobile-top {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .main-mobile-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .main-mobile-top span {
+    font-family: "SF Pro Text", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    background: linear-gradient(45deg, #4d62e5 0%, #87ddee 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .main-mobile-top img {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
 }
