@@ -758,6 +758,7 @@ input:focus::placeholder {
   flex-direction: column;
   gap: 16px;
   margin-top: 8px;
+  margin-bottom: 16px;
 }
 .right-aside__queries h3 {
   font-family: "Inter", serif;
@@ -782,4 +783,18 @@ input:focus::placeholder {
   line-height: 16.8px;
   color: #fff;
   letter-spacing: -0.01rem;
+}
+.right-aside__events {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+.right-aside__events h3 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434;
 }
