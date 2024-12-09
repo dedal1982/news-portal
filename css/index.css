@@ -596,3 +596,51 @@ fieldset {
   padding-right: 26px;
   box-sizing: border-box;
 }
+.right-aside__profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+}
+.profile-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-image span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 25px;
+  right: -1px;
+}
+.profile-title {
+  display: flex;
+  flex-direction: column;
+}
+.profile-title h3 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+}
+.profile-title p {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bdbdbd;
+}
+.right-aside__top-exit {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
