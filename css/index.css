@@ -351,6 +351,7 @@ input:focus::placeholder {
     padding-right: 43px;
     background: #f3f3f3;
     border-radius: 0;
+    border-bottom: none;
   }
 }
 .main__top-list {
@@ -1072,6 +1073,7 @@ input:focus::placeholder {
     padding-right: 24px;
     box-sizing: border-box;
     background: #f3f3f3;
+    border-bottom: 1px solid #bdbdbd80;
   }
   .main-mobile-top span {
     font-family: "SF Pro Text", sans-serif;

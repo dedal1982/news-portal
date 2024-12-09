@@ -63,19 +63,31 @@ if (recoveryBack) {
 
 const sProfile = document.getElementById("s-profile");
 const sMain = document.getElementById("s-main");
+const sMenu = document.getElementById("s-menu");
 const mainPage = document.querySelector(".main");
-const asidePage = document.querySelector(".right-aside");
+const profilePage = document.querySelector(".right-aside");
+const asidePage = document.querySelector(".aside");
 
 if (sProfile) {
   sProfile.addEventListener("click", () => {
     mainPage.style.display = "none";
-    asidePage.style.display = "flex";
+    asidePage.style.display = "none";
+    profilePage.style.display = "flex";
   });
 }
 
 if (sMain) {
   sMain.addEventListener("click", () => {
-    mainPage.style.display = "block";
+    profilePage.style.display = "none";
     asidePage.style.display = "none";
+    mainPage.style.display = "block";
+  });
+}
+
+if (sMenu) {
+  sMenu.addEventListener("click", () => {
+    mainPage.style.display = "none";
+    profilePage.style.display = "none";
+    asidePage.style.display = "flex";
   });
 }
