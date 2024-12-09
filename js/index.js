@@ -39,3 +39,12 @@ const makeCodeUniversal = (
 };
 // /*табы / форма вход / регистрация*/
 makeCodeUniversal(".profile-tab", ".profile-form");
+
+const forgotPassword = document.querySelector(".profile-form p");
+const profileWrap = document.querySelector(".profile-wrap");
+
+if (forgotPassword) {
+  forgotPassword.addEventListener("click", () => {
+    profileWrap.classList.add("active");
+  });
+}
