@@ -241,7 +241,7 @@ input:focus::placeholder {
   height: 78px;
   background: #47bce6;
   border-radius: 17px;
-  margin-top: auto;
+  margin-top: 85px;
   margin-left: 4px;
   display: flex;
   align-items: center;
@@ -455,6 +455,15 @@ input:focus::placeholder {
   right: 70px;
   top: 23px;
 }
+@media screen and (max-width: 1280px) {
+  .main__banner-image {
+    width: 235px;
+    height: 218px;
+    right: -90px;
+    top: 0;
+    transform: rotate(-35deg);
+  }
+}
 .main__banner-img {
   width: 100%;
   height: 100%;
@@ -469,6 +478,12 @@ input:focus::placeholder {
   position: absolute;
   left: -70px;
   bottom: 41px;
+}
+@media screen and (max-width: 1280px) {
+  .main__banner-icon-top,
+  .main__banner-icon-bottom {
+    display: none;
+  }
 }
 .main__news {
   width: 100%;
