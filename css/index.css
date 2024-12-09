@@ -668,3 +668,22 @@ fieldset {
   align-items: center;
   background: #f3f5f7;
 }
+.profile-tab {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background: #f3f5f7;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+}
+.profile-tab.active {
+  box-shadow: 0px 2px 2px 0px #00000012;
+  background: #fefefe;
+}
