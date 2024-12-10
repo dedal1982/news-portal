@@ -95,3 +95,12 @@ if (sMenu) {
     mainMobileTop.style.display = "flex";
   });
 }
+
+//всплывающие окна
+const popupWindows = document.querySelector(".drop-window-btn");
+const dropWindowPage = document.querySelector(".drop-window");
+if (popupWindows) {
+  popupWindows.addEventListener("click", () => {
+    dropWindowPage.classList.toggle("active");
+  });
+}
