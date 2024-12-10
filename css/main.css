@@ -163,3 +163,27 @@ input:focus::placeholder {
   height: 100%;
   object-fit: contain;
 }
+.menu__list {
+  display: flex;
+  flex-direction: column;
+}
+.menu__list li a {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+}
+.menu__list li a img {
+  width: 24px;
+  height: 24px;
+}
