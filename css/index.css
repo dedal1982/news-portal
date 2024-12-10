@@ -693,6 +693,7 @@ input:focus::placeholder {
 }
 .main__news-wrapper-open-post {
   margin-top: 0;
+  max-height: 100%;
 }
 .main__news {
   width: 100%;
@@ -781,6 +782,7 @@ input:focus::placeholder {
 }
 .banner-text-open-post {
   position: static;
+  margin-bottom: 15px;
 }
 .banner-text-open-post h2 {
   color: #343434;
@@ -788,12 +790,21 @@ input:focus::placeholder {
 .main__news-des {
   max-width: 530px;
   width: 100%;
+  margin: 23px auto 0 20px;
+}
+.main__news-des p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   color: #343434bf;
-  margin: 23px auto 0 20px;
+}
+.main__news-des p:not(:first-child) {
+  margin-top: 20px;
+}
+.main__news-des-open-post {
+  max-width: 653px;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .main__news-des {
