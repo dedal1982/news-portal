@@ -551,6 +551,9 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
 }
+.main__inner-open-post {
+  padding-top: 9px;
+}
 @media screen and (max-width: 767px) {
   .main__inner {
     padding: 16px 8.5px;
@@ -688,6 +691,9 @@ input:focus::placeholder {
 .main__news-wrapper::-webkit-scrollbar {
   width: 0;
 }
+.main__news-wrapper-open-post {
+  margin-top: 0;
+}
 .main__news {
   width: 100%;
   display: flex;
@@ -772,6 +778,12 @@ input:focus::placeholder {
   line-height: 30px;
   color: #fefefe;
   letter-spacing: -0.02rem;
+}
+.banner-text-open-post {
+  position: static;
+}
+.banner-text-open-post h2 {
+  color: #343434;
 }
 .main__news-des {
   max-width: 530px;
