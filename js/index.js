@@ -67,12 +67,14 @@ const sMenu = document.getElementById("s-menu");
 const mainPage = document.querySelector(".main");
 const profilePage = document.querySelector(".right-aside");
 const asidePage = document.querySelector(".aside");
+const mainMobileTop = document.querySelector(".main-mobile-top");
 
 if (sProfile) {
   sProfile.addEventListener("click", () => {
     mainPage.style.display = "none";
     asidePage.style.display = "none";
     profilePage.style.display = "flex";
+    mainMobileTop.style.display = "none";
   });
 }
 
@@ -81,6 +83,7 @@ if (sMain) {
     profilePage.style.display = "none";
     asidePage.style.display = "none";
     mainPage.style.display = "block";
+    mainMobileTop.style.display = "flex";
   });
 }
 
@@ -89,5 +92,6 @@ if (sMenu) {
     mainPage.style.display = "none";
     profilePage.style.display = "none";
     asidePage.style.display = "flex";
+    mainMobileTop.style.display = "flex";
   });
 }

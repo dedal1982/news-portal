@@ -92,6 +92,7 @@ h1 {
   .aside {
     display: none;
     margin-bottom: 80px;
+    max-width: 100%;
   }
 }
 .aside__top {
@@ -102,6 +103,11 @@ h1 {
   gap: 20px;
   padding: 19px 29px 40px 19px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .aside__top {
+    display: none;
+  }
 }
 .aside__top span {
   font-family: "SF Pro Text", sans-serif;
@@ -131,11 +137,7 @@ h1 {
   flex-direction: column;
   gap: 8px;
 }
-@media screen and (max-width: 1280px) {
-  .aside__name {
-    font-size: 22px;
-  }
-}
+
 .aside__name p {
   font-family: "SF Pro Text", sans-serif;
   font-weight: 400;
@@ -226,6 +228,12 @@ input:focus::placeholder {
   padding: 16px 16px 16px 14px;
   box-sizing: border-box;
   min-height: 272px;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .aside__favourites {
+    min-height: fit-content;
+  }
 }
 .aside__favourites-top {
   width: 100%;
@@ -271,6 +279,15 @@ input:focus::placeholder {
   padding-left: 11px;
   padding-right: 13px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .aside__progress {
+    max-width: 100%;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 132px;
+    max-width: 369px;
+  }
 }
 .aside__progress img {
   width: 40px;
