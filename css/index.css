@@ -294,6 +294,21 @@ input:focus::placeholder {
   width: 24px;
   height: 24px;
 }
+.edit-favorites {
+  width: 288px;
+  height: 48px;
+  border-radius: 8px;
+  background: #c6c6c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
 .aside__favourites-list {
   display: flex;
   flex-direction: column;
@@ -343,7 +358,7 @@ input:focus::placeholder {
   height: 78px;
   background: #47bce6;
   border-radius: 17px;
-  margin-top: 85px;
+  margin-top: auto;
   margin-left: 4px;
   display: flex;
   align-items: center;
