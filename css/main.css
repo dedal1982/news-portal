@@ -187,3 +187,70 @@ input:focus::placeholder {
   width: 24px;
   height: 24px;
 }
+.menu__favourites {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 16px 14px;
+  box-sizing: border-box;
+  min-height: 272px;
+  overflow: auto;
+}
+.drop-window {
+  width: 168px;
+  height: 35px;
+  border-radius: 8px;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  padding-left: 12px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #343434bf;
+  border: 1px solid #e9e9e9;
+  position: absolute;
+  right: 16px;
+  bottom: -24px;
+  background: #fff;
+}
+.drop-window.active {
+  display: flex;
+}
+.drop-window img {
+  width: 24px;
+  height: 24px;
+}
+.menu__favourites-top {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.menu__favourites-top button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: transparent;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+}
+.menu__favourites-top button img {
+  width: 24px;
+  height: 24px;
+}
+.drop-window-btn {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
