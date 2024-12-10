@@ -309,6 +309,9 @@ input:focus::placeholder {
   line-height: 24px;
   color: #fff;
 }
+.edit-favorites-active {
+  background: #47bce6;
+}
 .aside__favourites-list {
   display: flex;
   flex-direction: column;
