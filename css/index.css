@@ -693,7 +693,7 @@ input:focus::placeholder {
 }
 .main__news-wrapper-open-post {
   margin-top: 0;
-  max-height: 100%;
+  max-height: 879px;
 }
 .main__news {
   width: 100%;
