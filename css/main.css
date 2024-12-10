@@ -53,6 +53,7 @@ button {
 .main {
   max-width: 1472px;
   width: 100%;
+  height: auto;
   display: flex;
   background: #fff;
   padding: 24px 16px 24px 0;
@@ -192,8 +193,6 @@ input:focus::placeholder {
   flex-direction: column;
   padding: 16px 16px 16px 14px;
   box-sizing: border-box;
-  min-height: 272px;
-  overflow: auto;
 }
 .drop-window {
   width: 168px;
