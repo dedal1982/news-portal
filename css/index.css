@@ -283,6 +283,10 @@ input:focus::placeholder {
   line-height: 24px;
   color: #000000bf;
 }
+.aside__favourites-list li.active {
+  border-radius: 8px;
+  background: #47bce6;
+}
 .aside__favourites-list li img {
   width: 24px;
   height: 24px;
@@ -302,6 +306,7 @@ input:focus::placeholder {
   line-height: 24px;
   color: #6c7275;
   margin-left: auto;
+  background: #fff;
 }
 .aside__progress {
   max-width: 303px;
