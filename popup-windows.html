@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>рекомендации</title>
+    <title>всплывающие окна</title>
   </head>
   <body>
     <div class="page">
@@ -65,7 +65,15 @@
                 <img src="./icons/favourites-top.svg" alt="icon" />
                 Избранное
               </button>
-              <img src="./icons/favourites-more.svg" alt="icon" />
+              <img
+                class="drop-window-btn"
+                src="./icons/favourites-more.svg"
+                alt="icon"
+              />
+              <a class="drop-window" href="#">
+                <img src="./icons/drop-wind.svg" alt="icon" />
+                редактировать
+              </a>
             </div>
             <ul class="menu__favourites-list">
               <li>
@@ -297,6 +305,9 @@
                 </div>
               </div>
             </div>
+            <button class="all-events" type="button">
+              Смотреть все события
+            </button>
           </div>
         </div>
       </div>

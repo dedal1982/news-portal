@@ -1078,7 +1078,7 @@ input:focus::placeholder {
   color: #fefefe;
   margin-top: 7px;
 }
-.right-aside__queries {
+/* .right-aside__queries {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1108,7 +1108,7 @@ input:focus::placeholder {
   line-height: 16.8px;
   color: #fff;
   letter-spacing: -0.01rem;
-}
+} */
 .right-aside__events {
   display: flex;
   flex-direction: column;

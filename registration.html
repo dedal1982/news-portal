@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>рекомендации</title>
+    <title>регистрация</title>
   </head>
   <body>
     <div class="page">
@@ -67,28 +67,6 @@
               </button>
               <img src="./icons/favourites-more.svg" alt="icon" />
             </div>
-            <ul class="menu__favourites-list">
-              <li>
-                <img src="./icons/gray.svg" alt="icon" />
-                Политика
-                <span class="menu__favorites-amount">48</span>
-              </li>
-              <li class="active">
-                <img src="./icons/orange.svg" alt="icon" />
-                Невский проспект
-                <span class="menu__favorites-amount">16</span>
-              </li>
-              <li>
-                <img src="./icons/blue.svg" alt="icon" />
-                История
-                <span class="menu__favorites-amount">8</span>
-              </li>
-              <li>
-                <img src="./icons/red.svg" alt="icon" />
-                Крпиптовалюта
-                <span class="menu__favorites-amount">128</span>
-              </li>
-            </ul>
           </div>
           <div class="menu__progress">
             <img src="./icons/progress-icon.png" alt="icon" />
@@ -205,7 +183,7 @@
         <div class="sidebar">
           <div class="sidebar__top">
             <div class="sidebar__profile">
-              <div class="profile-image">
+              <!-- <div class="profile-image">
                 <img
                   class="profile-avatar"
                   src="./images/avatar.svg"
@@ -216,7 +194,7 @@
               <div class="profile-title">
                 <h3>Артур Вагнер</h3>
                 <p>dmc@gmai.com</p>
-              </div>
+              </div> -->
             </div>
             <img
               class="right-aside__top-exit"
@@ -225,40 +203,23 @@
             />
           </div>
           <div class="sidebar__inner">
-            <div class="sidebar__events">
-              <h3>Популярные новости</h3>
-              <div class="events-list">
-                <div class="events-list-item events-list-item_yellow">
-                  <h4>
-                    Юридический советник
-                    <img
-                      src="./icons/favourites-more-type-yellow.svg"
-                      alt="icon"
-                    />
-                  </h4>
-                  <p>Как правильно выбрать юриста и не выиграть дело</p>
-                </div>
-                <div class="events-list-item events-list-item_yellow">
-                  <h4>
-                    Щелкунчик не для всех
-                    <img
-                      src="./icons/favourites-more-type-yellow.svg"
-                      alt="icon"
-                    />
-                  </h4>
-                  <p>Шокирующая новость для всех кто хотел посетить</p>
-                </div>
-                <div class="events-list-item events-list-item_yellow">
-                  <h4>
-                    Оштрафован гос. чиновник
-                    <img
-                      src="./icons/favourites-more-type-yellow.svg"
-                      alt="icon"
-                    />
-                  </h4>
-                  <p>Пару часов назад был задержал председатель</p>
-                </div>
+            <div class="profile-wrap">
+              <div class="profile-tabs">
+                <div class="profile-tab">Вход</div>
+                <div class="profile-tab active">Регистрация</div>
               </div>
+
+              <form class="profile-form" action="#">
+                <div class="profile-input-wrap">
+                  <input type="text" placeholder="Username or email" />
+                  <img src="./icons/mail.svg" alt="mail" />
+                </div>
+                <div class="profile-input-wrap">
+                  <input type="password" placeholder="Password" />
+                  <img src="./icons/lock.svg" alt="lock" />
+                </div>
+                <button type="submit">Вход</button>
+              </form>
             </div>
             <div class="sidebar__queries">
               <h3>Популярные запросы</h3>

@@ -1,6 +1,6 @@
-const dropButton = document.querySelector(".main__drop");
-const dropList = document.querySelector(".main__drop-list");
-const dropArrow = document.querySelector(".main__drop img");
+const dropButton = document.querySelector(".center__top-drop");
+const dropList = document.querySelector(".center__top-drop-list");
+const dropArrow = document.querySelector(".center__top-drop img");
 
 if (dropButton) {
   dropButton.addEventListener("click", () => {
