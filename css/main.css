@@ -1676,26 +1676,53 @@ input:focus::placeholder {
   height: 86px;
   border-radius: 50%;
 }
-.banner-level-text {
+.banner-level__text {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
-.banner-level-title {
+.banner-level__title {
   display: flex;
   align-items: baseline;
   gap: 12px;
 }
-.banner-level-title h4 {
+.banner-level__title h4 {
   font-family: "Inter", serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 27.72px;
   color: #fff;
 }
-.banner-level-title h5 {
+.banner-level__title h5 {
   font-family: "Inter", serif;
   font-weight: 600;
   font-size: 18px;
   left: 21.6px;
   color: #fff;
+}
+.banner-level__text p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+.banner-level__text p span {
+  font-weight: 800;
+}
+.banner-level__progress-bar {
+  max-width: 525px;
+  width: 100%;
+  height: 9px;
+  border-radius: 100px;
+  background: #ffffff;
+  display: flex;
+}
+.banner-level__progress-bar span {
+  display: inline-block;
+  width: 282.35px;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(270deg, #f0ac3e 50%, #f0ac3e 100%);
 }
