@@ -645,7 +645,7 @@ input:focus::placeholder {
 .center__news {
   display: flex;
   flex-direction: column;
-  border-radius: 36px 36px 0 0;
+  border-radius: 36px 36px;
   background: #fff;
   padding: 32px 23px;
   box-sizing: border-box;
@@ -1128,4 +1128,33 @@ input:focus::placeholder {
 .open-post-two-image img {
   flex-basis: 50%;
   border-radius: 15px;
+}
+.open-post-source {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 24px;
+  color: #343434bf;
+}
+.open-post-source span {
+  font-weight: 700;
+  font-style: normal;
+}
+.open-post-hashtags {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 20px;
+}
+.open-post-hashtags li a {
+  padding: 5px 9px;
+  background: #eeeeee;
+  border-radius: 15px;
+  width: fit-content;
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.32px;
+  color: #343434bf;
 }
