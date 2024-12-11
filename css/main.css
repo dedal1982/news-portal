@@ -1329,3 +1329,24 @@ input:focus::placeholder {
   line-height: 40px;
   color: #343434bf;
 }
+.profile-main-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.profile-main-avatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background: #b5e4ca;
+}
+.profile-main-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
