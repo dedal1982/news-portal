@@ -1166,6 +1166,7 @@ input:focus::placeholder {
   box-sizing: border-box;
   border-radius: 20px;
   display: flex;
+  align-items: flex-end;
   gap: 16px;
   margin-top: 17px;
 }
@@ -1200,4 +1201,35 @@ input:focus::placeholder {
 }
 .center__banner-category-text span {
   font-weight: 700;
+}
+.center__banner-category-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.category-item-btn {
+  width: 133px;
+  height: 36px;
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #47bce6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center__banner-category-item button {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center__banner-category-item button img {
+  width: 24px;
+  height: 24px;
 }
