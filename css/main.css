@@ -763,6 +763,9 @@ input:focus::placeholder {
   line-height: 24px;
   color: #343434bf;
 }
+.news-survey-level p {
+  font-weight: 600;
+}
 fieldset {
   margin-top: 17px;
   border: none;
@@ -1762,4 +1765,52 @@ input:focus::placeholder {
 }
 input:focus::placeholder {
   color: transparent;
+}
+/*news-survey-level__wrapp*/
+.news-survey-level__wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 17px;
+}
+.news-survey-level__wrapp label {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: italic;
+  color: #343434bf;
+}
+.level-progress-one,
+.level-progress-two {
+  width: 100%;
+  height: 34px;
+  border-radius: 100px;
+  background: #ffffff;
+  position: relative;
+}
+.level-progress-one p,
+.level-progress-two p {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 11px;
+}
+.level-progress-one span {
+  display: block;
+  width: 259px;
+  height: 100%;
+  border-radius: inherit;
+  background: #3695b7;
+}
+.level-progress-two span {
+  display: block;
+  width: 422px;
+  height: 100%;
+  border-radius: inherit;
+  background: #47bce6;
 }
