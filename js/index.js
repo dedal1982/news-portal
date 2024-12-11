@@ -134,6 +134,13 @@ const inputElement = document.querySelector(".menu__form input");
 const dropdownElement = document.querySelector(".menu__form-drop");
 
 inputElement.addEventListener("click", () => {
-  dropdownElement.style.visibility = "visible";
-  inputElement.style.borderRadius = 0;
+  dropdownElement.classList.add("active");
+  inputElement.classList.add("active");
+});
+
+document.addEventListener("click", (event) => {
+  if (!inputElement.contains(event.target)) {
+    dropdownElement.classList.remove("active");
+    inputElement.classList.remove("active");
+  }
 });
