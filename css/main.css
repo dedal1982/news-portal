@@ -1676,3 +1676,26 @@ input:focus::placeholder {
   height: 86px;
   border-radius: 50%;
 }
+.banner-level-text {
+  display: flex;
+  flex-direction: column;
+}
+.banner-level-title {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.banner-level-title h4 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 27.72px;
+  color: #fff;
+}
+.banner-level-title h5 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 18px;
+  left: 21.6px;
+  color: #fff;
+}
