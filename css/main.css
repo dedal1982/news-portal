@@ -1317,3 +1317,15 @@ input:focus::placeholder {
   letter-spacing: -0.02rem;
   cursor: pointer;
 }
+.profile-main {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-main h2 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 40px;
+  color: #343434bf;
+}
