@@ -1332,12 +1332,12 @@ input:focus::placeholder {
 .profile-main-page {
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
 }
 .profile-info {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-top: 32px;
 }
 .profile-main-avatar {
   width: 112px;
@@ -1462,4 +1462,11 @@ input:focus::placeholder {
   font-size: 16px;
   line-height: 24px;
   color: #fefefe;
+}
+.profile-data-password {
+  margin-top: 33px;
+}
+.profile-data-password p img {
+  width: 20px;
+  height: 20px;
 }
