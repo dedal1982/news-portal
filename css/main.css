@@ -74,7 +74,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 19px 29px 40px 19px;
+  padding: 6px 29px 25px 19px;
   box-sizing: border-box;
 }
 .menu__top img {
@@ -82,15 +82,13 @@ button {
   height: 24px;
   cursor: pointer;
 }
-.menu__top span {
-  font-family: "SF Pro Text", sans-serif;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-  background: linear-gradient(45deg, #4d62e5 0%, #87ddee 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
 }
 .menu__name {
   width: 100%;
@@ -184,6 +182,7 @@ input:focus::placeholder {
   font-size: 14px;
   line-height: 24px;
   color: #343434bf;
+  letter-spacing: -0.02rem;
 }
 .menu__list li a.active {
   background: #47bce6;
@@ -806,6 +805,11 @@ fieldset {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+.right-aside__top-exit {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 .profile-image {
   width: 40px;
@@ -1479,4 +1483,67 @@ input:focus::placeholder {
 .profile-data-email p img {
   width: 20px;
   height: 20px;
+}
+.notifications-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.checkbox {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.checkbox-label {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+  letter-spacing: -0.01rem;
+}
+.checkbox-input {
+  appearance: none;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: #47bce6;
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+  border-radius: 6px;
+  border: 1px solid #47bce6;
+}
+.checkbox-input::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  font-size: 30px;
+  background-image: url("../icons/check-in.svg");
+  background-repeat: no-repeat;
+}
+.checkbox-input:checked::after {
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checkbox-input:disabled,
+.radio-input:disabled {
+  background: #ccc;
+  border-color: #ccc;
+}
+
+.checkbox-input:disabled::after,
+.radio-input:disabled::after {
+  filter: grayscale(100%);
 }
