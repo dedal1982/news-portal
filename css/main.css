@@ -1158,3 +1158,46 @@ input:focus::placeholder {
   line-height: 14.32px;
   color: #343434bf;
 }
+.center__banner-category {
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(104.56deg, #47bce6 18.71%, #2871c8 90.38%);
+  padding: 0 22px 28px 41px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  gap: 16px;
+  margin-top: 17px;
+}
+.center__banner-category-text {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 116px;
+}
+.center__banner-category-text h2 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 27.72px;
+  color: #fff;
+}
+.center__banner-category-text h4 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+.center__banner-category-text h5 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+.center__banner-category-text span {
+  font-weight: 700;
+}
