@@ -1560,9 +1560,76 @@ input:focus::placeholder {
   line-height: 24px;
   color: #fefefe;
 }
+/*categories-form*/
 .categories-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   margin-top: 32px;
+}
+.checkbox-categories {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+.checkbox-categories:not(:first-child) {
+  margin-top: 8px;
+}
+.checkbox-input-categories {
+  appearance: none;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+}
+.checkbox-input-categories::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  font-size: 30px;
+  background-image: url("../icons/check-cat.svg");
+  background-repeat: no-repeat;
+}
+.checkbox-input-categories:checked::after {
+  width: 30px;
+  height: 30px;
+}
+.checkbox-input-categories:disabled {
+  background: #ccc;
+  border-color: #ccc;
+}
+.checkbox-input-categories:disabled::after {
+  filter: grayscale(100%);
+}
+.checkbox-label-categories {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #232627;
+  letter-spacing: -0.02rem;
+}
+.checkbox-label-categories img {
+  width: 24px;
+  height: 24px;
+}
+.categories-form button {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  background: #47bce6;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fefefe;
 }
