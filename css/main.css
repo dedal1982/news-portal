@@ -1399,3 +1399,67 @@ input:focus::placeholder {
   width: 0;
   height: 0;
 }
+/****************/
+.profile-data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 24px;
+}
+.profile-data p {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+.profile-data p img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+}
+.profile-data input {
+  width: 100%;
+  height: 52px;
+  border-radius: 12px;
+  border: 2px solid #f1f1f1;
+  padding-left: 50px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  position: relative;
+}
+.profile-data input:last-child {
+  padding-left: 16px;
+}
+.profile-data input,
+.profile-data input::placeholder {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #34343480;
+}
+.profile-data input:focus::placeholder {
+  color: transparent;
+}
+.profile-data label {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #343434bf;
+  letter-spacing: -0.02rem;
+}
+.profile-data button {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  background: #47bce6;
+  margin-top: 8px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fefefe;
+}
