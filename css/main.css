@@ -577,6 +577,7 @@ input:focus::placeholder {
   padding-right: 14px;
   box-sizing: border-box;
   overflow: auto;
+  scrollbar-width: none;
 }
 .center__banner {
   width: 100%;
