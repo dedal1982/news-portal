@@ -1560,3 +1560,9 @@ input:focus::placeholder {
   line-height: 24px;
   color: #fefefe;
 }
+.categories-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 32px;
+}
