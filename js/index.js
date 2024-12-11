@@ -9,37 +9,6 @@ if (dropButton) {
   });
 }
 
-// функция переключения табов
-const makeCodeUniversal = (
-  tabItemsQuery,
-  formItemsQuery,
-  tabClassName = "active"
-) => {
-  const tabItems = Array.from(document.querySelectorAll(tabItemsQuery));
-  const formItems = Array.from(document.querySelectorAll(formItemsQuery));
-
-  const clearActiveTabs = (element) => {
-    element.find((item) => item.classList.remove(tabClassName));
-  };
-
-  const setActiveTab = (element, index) => {
-    element[index].classList.add(tabClassName);
-  };
-
-  const chekTab = (item, index) => {
-    item.addEventListener("click", () => {
-      clearActiveTabs(tabItems);
-      clearActiveTabs(formItems);
-
-      setActiveTab(tabItems, index);
-      setActiveTab(formItems, index);
-    });
-  };
-  tabItems.forEach(chekTab);
-};
-// /*табы / форма вход / регистрация*/
-makeCodeUniversal(".profile-tab", ".profile-form");
-
 const forgotPassword = document.querySelector(".profile-form p");
 const profileWrap = document.querySelector(".profile-wrap");
 const profileRecovery = document.querySelector(".profile-wrap__recovery");
@@ -158,4 +127,13 @@ window.addEventListener("DOMContentLoaded", function () {
     input.addEventListener("blur", mask, false);
     input.addEventListener("keydown", mask, false);
   }
+});
+
+//поиск
+const inputElement = document.querySelector(".menu__form input");
+const dropdownElement = document.querySelector(".menu__form-drop");
+
+inputElement.addEventListener("click", () => {
+  dropdownElement.style.visibility = "visible";
+  inputElement.style.borderRadius = 0;
 });
