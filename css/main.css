@@ -1121,3 +1121,11 @@ input:focus::placeholder {
   padding-right: 20px;
   box-sizing: border-box;
 }
+.open-post-two-image {
+  display: flex;
+  gap: 25px;
+}
+.open-post-two-image img {
+  flex-basis: 50%;
+  border-radius: 15px;
+}
