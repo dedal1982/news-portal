@@ -1092,3 +1092,32 @@ input:focus::placeholder {
 .events-list-item_yellow p {
   color: #fff;
 }
+.open-post-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 22px;
+}
+.center__news-item-open-post {
+  position: static;
+  padding-left: 18px;
+  box-sizing: border-box;
+}
+.center__news-item-open-post h2 {
+  color: #343434;
+}
+.open-post-list {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.open-post-list li a img {
+  width: 24px;
+  height: 24px;
+}
+.center__news-desc-open-post {
+  max-width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
