@@ -1432,6 +1432,9 @@ input:focus::placeholder {
 .profile-data input:last-child {
   padding-left: 16px;
 }
+.profile-data p:nth-of-type(1) input {
+  background: #f6f6f6;
+}
 .profile-data input,
 .profile-data input::placeholder {
   font-family: "Inter", serif;
@@ -1467,6 +1470,13 @@ input:focus::placeholder {
   margin-top: 33px;
 }
 .profile-data-password p img {
+  width: 20px;
+  height: 20px;
+}
+.profile-data-email {
+  margin-top: 33px;
+}
+.profile-data-email p img {
   width: 20px;
   height: 20px;
 }
