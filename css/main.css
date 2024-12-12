@@ -14,6 +14,11 @@
 html {
   scroll-behavior: smooth;
 }
+@media screen and (max-width: 767px) {
+  html {
+    background: #f6f6f6;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -970,6 +975,11 @@ fieldset {
   border-left: 1px solid #bdbdbd;
   border-radius: 0 20px 20px 0;
 }
+@media screen and (max-width: 767px) {
+  .sidebar {
+    max-width: 100%;
+  }
+}
 .sidebar__top {
   width: 100%;
   height: 88px;
@@ -1092,10 +1102,12 @@ fieldset {
   display: flex;
   align-items: center;
   background: #f3f5f7;
+  padding: 5px;
+  box-sizing: border-box;
 }
 .profile-tab {
   width: 50%;
-  height: 100%;
+  height: 40px;
   border-radius: 10px;
   background: #f3f5f7;
   cursor: pointer;
