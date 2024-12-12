@@ -73,6 +73,11 @@ button {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 767px) {
+  .menu {
+    max-width: 100%;
+  }
+}
 .menu__top {
   width: 100%;
   display: flex;
@@ -82,6 +87,12 @@ button {
   padding: 6px 29px 25px 19px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+  .menu__top {
+    display: none;
+  }
+}
+
 .menu__top img {
   width: 24px;
   height: 24px;
@@ -233,6 +244,13 @@ input:focus::placeholder {
   flex-direction: column;
   padding: 16px 16px 16px 14px;
   box-sizing: border-box;
+  min-height: 272px;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .menu__favourites {
+    min-height: 212px;
+  }
 }
 .drop-window {
   width: 168px;
@@ -308,6 +326,17 @@ input:focus::placeholder {
   padding-right: 13px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+  .menu__progress {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu__progress {
+    max-width: 369px;
+    margin: 0 auto;
+  }
+}
 .menu__progress img {
   width: 40px;
   height: 40px;
@@ -351,14 +380,6 @@ input:focus::placeholder {
   height: 100%;
   border-radius: inherit;
   background: linear-gradient(270deg, #f0ac3e 50%, #f0ac3e 100%);
-}
-.menu__favourites {
-  display: flex;
-  flex-direction: column;
-  padding: 16px 16px 16px 14px;
-  box-sizing: border-box;
-  min-height: 272px;
-  overflow: auto;
 }
 .drop-window {
   width: 168px;
