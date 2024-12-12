@@ -888,6 +888,12 @@ input:focus::placeholder {
   box-sizing: border-box;
   margin-top: 23px;
 }
+@media screen and (max-width: 767px) {
+  .center__news-survey {
+    margin-top: 10px;
+    padding: 18px 9px 9px 9px;
+  }
+}
 .center__news-survey h3 {
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -895,6 +901,11 @@ input:focus::placeholder {
   line-height: 24px;
   color: #666666;
   margin-bottom: 6px;
+}
+@media screen and (max-width: 767px) {
+  .center__news-survey h3 {
+    margin-bottom: 17px;
+  }
 }
 .center__news-survey p,
 .center__news-survey label {
