@@ -78,6 +78,12 @@ button {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1400px) {
+  .menu {
+    position: absolute;
+    left: -100%;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu {
     max-width: 100%;
@@ -532,8 +538,9 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1400px) {
   .center {
+    max-width: 100%;
   }
 }
 .center__top {
@@ -974,6 +981,12 @@ fieldset {
   background: #f6f6f6;
   border-left: 1px solid #bdbdbd;
   border-radius: 0 20px 20px 0;
+}
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    position: absolute;
+    right: -100%;
+  }
 }
 @media screen and (max-width: 767px) {
   .sidebar {
