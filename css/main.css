@@ -617,7 +617,6 @@ input:focus::placeholder {
   box-sizing: border-box;
   border-radius: 20px;
   position: relative;
-  overflow: hidden;
   margin-top: 21px;
 }
 .center__banner-text {
