@@ -1456,6 +1456,15 @@ input:focus::placeholder {
   gap: 16px;
   margin-top: 17px;
 }
+@media screen and (max-width: 767px) {
+  .center__banner-category {
+    flex-direction: column;
+    padding: 26px 65px 25px 18px;
+    align-items: flex-start;
+    height: 223px;
+    margin-top: 3px;
+  }
+}
 .center__banner-category-text {
   max-width: 450px;
   width: 100%;
@@ -1463,6 +1472,11 @@ input:focus::placeholder {
   flex-direction: column;
   gap: 12px;
   margin-top: auto;
+}
+@media screen and (max-width: 767px) {
+  .center__banner-category-text {
+    gap: 9px;
+  }
 }
 .category-text_type-2 {
   max-width: 490px;
@@ -1480,6 +1494,12 @@ input:focus::placeholder {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .center__banner-category-text h4 {
+    font-size: 14px;
+    line-height: 16.37px;
+  }
 }
 .center__banner-category-text h5 {
   font-family: "Karla", sans-serif;
@@ -1517,6 +1537,11 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .center__banner-category-item button {
+    display: none;
+  }
 }
 .center__banner-category-item button img {
   width: 24px;
@@ -2423,4 +2448,9 @@ textarea:focus {
     -webkit-background-clip: text;
     letter-spacing: -0.02rem;
   }
+}
+/*классы которые использовал чтобы показать верстку в мобильных разрешениях (чтобы элементы были видны),потом удалить их*/
+.sidebar-mob {
+  position: static;
+  right: 0;
 }
