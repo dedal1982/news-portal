@@ -103,7 +103,7 @@ button {
 .main {
   max-width: 1472px;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   background: #fff;
   padding: 24px 16px 24px 0;
@@ -2336,6 +2336,12 @@ input:focus::placeholder {
   margin-top: 17px;
   min-height: 467px;
   box-shadow: 0px 4px 29.3px 0px #d8d8d8;
+}
+@media screen and (max-width: 767px) {
+  .project-info {
+    margin-top: 10px;
+    padding: 33px 9px;
+  }
 }
 .project-info__title {
   display: flex;
