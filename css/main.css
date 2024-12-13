@@ -779,6 +779,24 @@ input:focus::placeholder {
   letter-spacing: -0.02rem;
   cursor: pointer;
 }
+.admin-user-inner__left {
+  width: 189px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+.admin-user-inner__left-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .center__top {
   width: 100%;
   height: 88px;
