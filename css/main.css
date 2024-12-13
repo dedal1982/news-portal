@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @font-face {
   font-family: "SF Pro Text";
   src: url("../fonts/sf-pro-text-9.ttf") format("truetype");
@@ -624,6 +625,52 @@ input:focus::placeholder {
     max-width: 100%;
     border-radius: 0;
   }
+}
+.admin-user-top {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  border-bottom: 1px solid #bdbdbd;
+  background: #f8fafc;
+  padding-left: 33px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.admin-user-top__wrapper {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.admin-user-top__wrapper h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 28px;
+  color: #1e293b;
+  letter-spacing: -0.02rem;
+}
+.admin-user-top__wrapper a {
+  width: 252px;
+  height: 40px;
+  border-radius: 1234px;
+  background: #47bce6;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+.admin-user-top__wrapper a img {
+  width: 20px;
+  height: 20px;
 }
 .center__top {
   width: 100%;
