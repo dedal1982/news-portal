@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>мой профиль мобильный</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <!--мобильный хедео-->
+        <div class="mobile-top">
+          <a class="mobile-top__logo" href="#">legio.news</a>
+          <img src="./icons/mobile-top-icon.svg" alt="icon" />
+        </div>
+        <!--end мобильный хедео-->
+        <div class="center">
+          <div class="center__top">
+            <ul class="center__top-list">
+              <li class="active">
+                <img src="./icons/main-top-1.png" alt="icon" />
+                Новостная лента
+              </li>
+              <li>
+                <img src="./icons/main-top-2.svg" alt="icon" />
+                Избранное
+              </li>
+              <li>
+                <div class="center__top-drop">
+                  Санкт Петербург
+                  <img src="./icons/main-top-3.svg" alt="icon" />
+                  <ul class="center__top-drop-list">
+                    <li>
+                      <a href="#">Москва</a>
+                    </li>
+                    <li>
+                      <a href="#">Москва</a>
+                    </li>
+                    <li>
+                      <a href="#">Москва</a>
+                    </li>
+                    <li>
+                      <a href="#">Москва</a>
+                    </li>
+                    <li>
+                      <a href="#">Москва</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="center__inner center__inner-profile">
+            <div class="profile-inner">
+              <div class="profile-main">
+                <h2>Настройка профиля</h2>
+                <div class="profile-main-page">
+                  <div class="profile-info">
+                    <div class="profile-main-avatar">
+                      <img src="./images/ava.png" alt="avatar" />
+                    </div>
+                    <div class="profile-main-item">
+                      <form method="post" enctype="multipart/form-data">
+                        <label class="input-file">
+                          <input type="file" name="file" />
+                          <span>Загрузить изображение</span>
+                        </label>
+                        <p>
+                          Максимальный размер 800x800 px. Выложите в JPG или
+                          PNG.
+                        </p>
+                      </form>
+                    </div>
+                  </div>
+                  <form class="profile-data" action="" method="get">
+                    <p>
+                      <label for="name">Имя</label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        required
+                        placeholder="Артур Вагнер"
+                      />
+                      <img src="./icons/name-unput.svg" alt="icon" />
+                    </p>
+                    <p>
+                      <label for="location">Ваша локация</label>
+                      <input
+                        type="text"
+                        name="location"
+                        id="location"
+                        required
+                        placeholder="Санкт - Петербург"
+                      />
+                      <img src="./icons/location.svg" alt="icon" />
+                    </p>
+                    <p>
+                      <label for="tel">Ваш номер телефона</label>
+                      <input
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        required
+                        placeholder="+7    996 996 96 96 "
+                      />
+                    </p>
+                    <p>
+                      <label for="email">Ваша текущая почта</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        required=""
+                        placeholder="livelongnews@gmai.com"
+                      />
+                      <img src="./icons/email.svg" alt="icon" />
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

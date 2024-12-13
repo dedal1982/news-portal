@@ -149,3 +149,23 @@ if (inputElement && dropdownElement) {
     }
   });
 }
+
+//бургер меню
+const burgerMenu = document.querySelector(".burger-menu");
+const menuPage = document.querySelector(".menu");
+
+if (burgerMenu) {
+  burgerMenu.addEventListener("click", () => {
+    menuPage.classList.toggle("active");
+  });
+}
+
+//кнопка профиля
+const profBtn = document.querySelector(".prof-btn");
+const profPage = document.querySelector(".sidebar");
+
+if (profBtn) {
+  profBtn.addEventListener("click", () => {
+    profPage.classList.toggle("active");
+  });
+}
