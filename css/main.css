@@ -168,7 +168,9 @@ button {
     display: none;
   }
 }
-
+.menu__top-admin {
+  padding-bottom: 0;
+}
 .menu__top img {
   width: 24px;
   height: 24px;
@@ -208,6 +210,9 @@ button {
   flex-direction: column;
   padding: 16px 16px 16px 14px;
   box-sizing: border-box;
+}
+.menu__search-admin {
+  margin-top: 0;
 }
 .menu__form {
   width: 100%;
