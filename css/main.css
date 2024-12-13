@@ -401,12 +401,13 @@ input:focus::placeholder {
   padding-right: 13px;
   box-sizing: border-box;
 }
+.menu__progress-mobile {
+  margin-top: 12px;
+  max-width: 100%;
+}
 @media screen and (max-width: 767px) {
   .menu__progress {
     max-width: 100%;
-  }
-  .menu__progress-mobile {
-    margin-top: 12px;
   }
 }
 @media screen and (max-width: 400px) {
