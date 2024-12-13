@@ -763,8 +763,8 @@ input:focus::placeholder {
 .main-administrator {
   width: 140px;
   height: 32px;
-  border-radius: 1234px;
   background: #eef2ff;
+  border-radius: 1234px;
   padding-left: 8px;
   padding-right: 8px;
   box-sizing: border-box;
@@ -776,6 +776,25 @@ input:focus::placeholder {
   font-size: 12px;
   line-height: 16px;
   color: #4f46e5;
+  letter-spacing: -0.02rem;
+  cursor: pointer;
+}
+.main-editor {
+  width: 102px;
+  height: 32px;
+  background: #fffbeb;
+  border-radius: 1234px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f59e0b;
   letter-spacing: -0.02rem;
   cursor: pointer;
 }
