@@ -1448,6 +1448,7 @@ input:focus::placeholder {
 }
 .open-post-hashtags {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 7px;
   margin-top: 20px;
