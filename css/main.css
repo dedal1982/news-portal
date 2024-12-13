@@ -2176,6 +2176,53 @@ input:focus::placeholder {
 input:focus::placeholder {
   color: transparent;
 }
+.banner-search-list {
+  width: 244px;
+  height: 48px;
+  margin-top: 12px;
+  border: 1px solid #f1f1f1;
+  border-radius: 15px;
+  padding-left: 22px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.09px;
+  color: #343434bf;
+  background: #ffffff;
+}
+.banner-search-list img {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+.edit-item {
+  width: 126px;
+  height: 24px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  font-family: "SF Pro Text";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.32px;
+  color: #343434bf;
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  padding-left: 9px;
+  padding-right: 6px;
+  box-sizing: border-box;
+}
+.edit-item img {
+  width: 14px;
+  height: 14px;
+}
 /*news-survey-level__wrapp*/
 .news-survey-level__wrapp {
   display: flex;
