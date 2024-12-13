@@ -882,6 +882,17 @@ input:focus::placeholder {
     display: none;
   }
 }
+.center__news-admin {
+  max-width: 638px;
+  width: 100%;
+  border-radius: 12px;
+  background: #eeeeee;
+  padding: 18px 19px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 14px auto 0;
+}
 .center__news {
   display: flex;
   flex-direction: column;
