@@ -1562,6 +1562,11 @@ input:focus::placeholder {
   flex-direction: column;
   gap: 12px;
 }
+@media screen and (max-width: 800px) {
+  .profile-inner__menu {
+    display: none;
+  }
+}
 .profile-inner__list {
   display: flex;
   flex-direction: column;
