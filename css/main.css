@@ -719,6 +719,7 @@ input:focus::placeholder {
   height: 72px;
   border-bottom: 1px solid #e2e8f0;
   background: #ffffff;
+  display: flex;
 }
 .admin-user-inner__user {
   width: 260px;
@@ -751,6 +752,32 @@ input:focus::placeholder {
   font-size: 14px;
   line-height: 22.4px;
   color: #343434bf;
+}
+.admin-user-inner__access {
+  width: 271px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  box-sizing: border-box;
+}
+.main-administrator {
+  width: 140px;
+  height: 32px;
+  border-radius: 1234px;
+  background: #eef2ff;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4f46e5;
+  letter-spacing: -0.02rem;
+  cursor: pointer;
 }
 .center__top {
   width: 100%;
