@@ -313,6 +313,10 @@ input:focus::placeholder {
   background: #47bce6;
   color: #fff;
 }
+.menu__list li a img {
+  width: 24px;
+  height: 24px;
+}
 .menu__list li a svg {
   fill: #000;
 }
@@ -2145,6 +2149,14 @@ input:focus::placeholder {
   padding-left: 64px;
   padding-right: 22px;
   box-sizing: border-box;
+}
+.banner-search__wrapp-admin {
+  width: 455px;
+}
+.banner-search-item {
+  display: flex;
+  align-items: center;
+  gap: 17px;
 }
 .banner-search__wrapp img {
   position: absolute;
