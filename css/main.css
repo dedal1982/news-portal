@@ -672,6 +672,48 @@ input:focus::placeholder {
   width: 20px;
   height: 20px;
 }
+.admin-user-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+.admin-user-inner__top {
+  width: 100%;
+  height: 48px;
+  background: #f8fafc;
+  border-bottom: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #343434bf;
+  letter-spacing: -0.02rem;
+}
+.admin-user-inner__top-choice {
+  width: 260px;
+  height: 100%;
+  padding-left: 24px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.admin-user-inner__top-choice img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.admin-user-inner__top-access {
+  width: 271px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  box-sizing: border-box;
+}
 .center__top {
   width: 100%;
   height: 88px;
