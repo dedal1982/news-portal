@@ -1398,6 +1398,7 @@ input:focus::placeholder {
   position: static;
   padding-left: 18px;
   box-sizing: border-box;
+  max-width: 100%;
 }
 .center__news-item-open-post h2 {
   color: #343434;
@@ -1406,6 +1407,9 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+.open-post-list-photos {
+  margin-left: auto;
 }
 .open-post-list li a img {
   width: 24px;
@@ -1419,6 +1423,11 @@ input:focus::placeholder {
 .open-post-two-image {
   display: flex;
   gap: 25px;
+}
+@media screen and (max-width: 767px) {
+  .open-post-two-image {
+    flex-direction: column;
+  }
 }
 .open-post-two-image img {
   flex-basis: 50%;
