@@ -1333,6 +1333,9 @@ input:focus::placeholder {
   padding: 16px 0;
   box-sizing: border-box;
 }
+.sidebar__events-admin {
+  padding-top: 4px;
+}
 .sidebar__events_type-yellow {
   padding: 4px 0 24px 0;
 }
