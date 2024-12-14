@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Жалоба</title>
+    <title>добавление администратора всплывающее окно</title>
   </head>
   <body>
     <div class="page">
@@ -267,17 +267,17 @@
           </div>
         </div>
       </div>
-      <!--ПОПАП ЖАЛОБА-->
-      <div class="popup-complaint">
-        <form class="popup-complaint__form" action="">
+      <!--ПОПАП добавление администратора-->
+      <div class="popup-adding">
+        <form class="popup-adding__form" action="">
           <img src="./icons/popup-close.svg" alt="close" />
-          <label>Отправить жалобу</label>
-          <textarea
-            name=""
-            id=""
-            placeholder="Опишите что вас смутило"
-          ></textarea>
-          <button type="submit">Отправить жалобу</button>
+          <label>Добавление администратора</label>
+          <div class="popup-adding__inputs">
+            <input type="text" placeholder="Имя Фамилия" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Пароль" />
+          </div>
+          <button type="submit">Добавить администратора</button>
         </form>
       </div>
     </div>

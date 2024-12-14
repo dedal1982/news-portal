@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Жалоба</title>
+    <title>завершение опроса всплывающее окно</title>
   </head>
   <body>
     <div class="page">
@@ -267,17 +267,26 @@
           </div>
         </div>
       </div>
-      <!--ПОПАП ЖАЛОБА-->
-      <div class="popup-complaint">
-        <form class="popup-complaint__form" action="">
+      <!--ПОПАП Завершение опроса-->
+      <div class="popup-completing">
+        <form class="popup-completing__form" action="">
           <img src="./icons/popup-close.svg" alt="close" />
-          <label>Отправить жалобу</label>
-          <textarea
-            name=""
-            id=""
-            placeholder="Опишите что вас смутило"
-          ></textarea>
-          <button type="submit">Отправить жалобу</button>
+          <label>Завершение опроса</label>
+          <p>Выберите вариант</p>
+          <div class="popup-completing__input-wrap">
+            <div class="popup-completing__input-item active">
+              <input type="text" placeholder="Вариант 1" />
+              <img src="./icons/chevron-completing.svg" alt="icon" />
+            </div>
+            <div class="popup-completing__input-item">
+              <input type="text" placeholder="Вариант 2" />
+              <img src="./icons/chevron-completing.svg" alt="icon" />
+            </div>
+          </div>
+          <div class="popup-completing__buttons">
+            <button class="buttons-blue" type="submit">Завершить опрос</button>
+            <button type="submit">Отменить</button>
+          </div>
         </form>
       </div>
     </div>
