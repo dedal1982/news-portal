@@ -2306,13 +2306,18 @@ input:focus::placeholder {
   height: 294px;
   border-radius: 20px;
   background: linear-gradient(104.56deg, #47bce6 18.71%, #2871c8 90.38%);
-  padding: 0 22px 28px 41px;
+  padding: 28px 22px 28px 41px;
   box-sizing: border-box;
   border-radius: 20px;
   display: flex;
   align-items: flex-end;
   gap: 16px;
   margin-top: 17px;
+}
+@media screen and (max-width: 1400px) {
+  .center__banner-category {
+    justify-content: space-between;
+  }
 }
 @media screen and (max-width: 767px) {
   .center__banner-category {
