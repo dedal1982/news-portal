@@ -804,7 +804,6 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 18px;
   padding-right: 24px;
   box-sizing: border-box;
 }
@@ -815,6 +814,16 @@ input:focus::placeholder {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.admin-user-quantity {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4f46e5;
+  background: #eef2ff;
+  padding: 4px 8px;
+  border-radius: 1234px;
 }
 .center__top {
   width: 100%;
