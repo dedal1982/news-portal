@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>админ панель жалобы получатели</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <div class="menu">
+          <div class="menu__top menu__top-admin">
+            <a class="logo" href="#"
+              ><img src="./icons/legio-logo.svg" alt="logo"
+            /></a>
+            <img src="./icons/aside-exit.svg" alt="exit" />
+          </div>
+
+          <div class="menu__search menu__search-admin">
+            <ul class="menu__list">
+              <li>
+                <a href="#">
+                  <img src="./icons/ap-1.svg" alt="icon" />
+                  Создание новости
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/ap-2.svg" alt="icon" />
+                  Работа с опросами
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/ap-3.svg" alt="icon" />
+                  Администраторы
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/ap-4.svg" alt="icon" />
+                  Пользователи
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/ap-5.svg" alt="icon" />
+                  Рассылки
+                </a>
+              </li>
+              <li>
+                <a class="active" href="#">
+                  <img src="./icons/ap-6.svg" alt="icon" />
+                  Жалобы
+                </a>
+              </li>
+              <li>
+                <a class="active" href="#">
+                  <img src="./icons/ap-7.svg" alt="icon" />
+                  Рейтинг
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="center">
+          <div class="admin-user-top">
+            <div class="admin-user-top__wrapper">
+              <h2>Жалобы от пользователей</h2>
+              <a class="admin-to-send" href="#">Отправить рассылку</a>
+            </div>
+          </div>
+          <div class="center__inner">
+            <div class="admin-user-inner">
+              <div class="admin-user-inner__top">
+                <div class="admin-user-inner__top-choice">
+                  Имя пользователя
+                  <img src="./icons/CaretUpDown.png" alt="choice" />
+                </div>
+                <div class="admin-user-inner__top-access">Жалоба на пост</div>
+              </div>
+              <div class="admin-user-inner__item">
+                <div class="admin-user-inner__user">
+                  <img src="./images/user-image.svg" alt="avatar" />
+                  <div class="admin-user-inner__titile">
+                    <h4>Alice Smith</h4>
+                    <h5>@alicesmith</h5>
+                  </div>
+                </div>
+                <div class="admin-user-inner__access">
+                  <a class="user-complaints" href="#">Перейти к посту</a>
+                </div>
+                <div class="admin-user-inner__left">
+                  <div class="admin-user-inner__left-check"></div>
+                </div>
+              </div>
+              <div class="admin-user-inner__item">
+                <div class="admin-user-inner__user">
+                  <img src="./images/user-image-2.svg" alt="avatar" />
+                  <div class="admin-user-inner__titile">
+                    <h4>Bob Johnson</h4>
+                    <h5>@bobjohnson</h5>
+                  </div>
+                </div>
+                <div class="admin-user-inner__access">
+                  <a class="user-complaints" href="#">Перейти к посту</a>
+                </div>
+                <div class="admin-user-inner__left">
+                  <div class="admin-user-inner__left-check"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar__top">
+            <div class="sidebar__profile">
+              <div class="profile-image">
+                <img
+                  class="profile-avatar"
+                  src="./images/avatar.svg"
+                  alt="avatar"
+                />
+                <span></span>
+              </div>
+              <div class="profile-title">
+                <h3>Артур Вагнер</h3>
+                <p>dmc@gmai.com</p>
+              </div>
+            </div>
+            <img
+              class="right-aside__top-exit"
+              src="./icons/right-aside-exit.svg"
+              alt="icon"
+            />
+          </div>
+          <div class="sidebar__inner"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

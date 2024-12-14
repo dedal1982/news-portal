@@ -649,11 +649,9 @@ input:focus::placeholder {
   font-size: 19px;
   line-height: 28px;
   color: #1e293b;
-  letter-spacing: -0.02rem;
+  letter-spacing: -0.04rem;
 }
 .admin-user-top__wrapper a {
-  width: 252px;
-  height: 40px;
   border-radius: 1234px;
   background: #47bce6;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -664,8 +662,7 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 10px 16px;
   box-sizing: border-box;
 }
 .admin-user-top__wrapper a img {
@@ -813,6 +810,13 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.admin-user-inner__left-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #e5e5e5;
   cursor: pointer;
 }
 .admin-user-quantity {
