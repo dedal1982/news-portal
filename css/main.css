@@ -3134,6 +3134,11 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 767px) {
+  .user-rating__top {
+    height: 68px;
+  }
+}
 .user-rating__user {
   max-width: 260px;
   width: 100%;
@@ -3143,6 +3148,11 @@ input:focus::placeholder {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .user-rating__user {
+    width: 178px;
+  }
 }
 .user-rating__tests {
   max-width: 260px;
@@ -3155,6 +3165,12 @@ input:focus::placeholder {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .user-rating__tests {
+    width: 98px;
+    padding: 0;
+  }
+}
 .user-rating__level {
   max-width: 200px;
   width: 100%;
@@ -3165,6 +3181,12 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .user-rating__level {
+    width: 94px;
+    padding: 0;
+  }
 }
 .user-rating__item {
   width: 100%;
@@ -3179,8 +3201,13 @@ input:focus::placeholder {
   line-height: 20px;
   color: #343434bf;
 }
+@media screen and (max-width: 1400px) {
+  .user-rating__item {
+    justify-content: space-between;
+  }
+}
 .user-rating__item-user {
-  max-width: 260px;
+  width: 260px;
   width: 100%;
   height: 100%;
   padding-left: 24px;
@@ -3190,13 +3217,19 @@ input:focus::placeholder {
   align-items: center;
   gap: 12px;
 }
+@media screen and (max-width: 767px) {
+  .user-rating__item-user {
+    width: 178px;
+    gap: 10px;
+  }
+}
 .user-rating__item-user img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 .user-rating__item-tests {
-  max-width: 260px;
+  width: 260px;
   width: 100%;
   height: 100%;
   padding-left: 24px;
@@ -3206,8 +3239,15 @@ input:focus::placeholder {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .user-rating__item-tests {
+    max-width: 98px;
+    padding: 0;
+    justify-content: flex-start;
+  }
+}
 .user-rating__item-level {
-  max-width: 200px;
+  width: 200px;
   width: 100%;
   height: 100%;
   padding-left: 24px;
@@ -3216,6 +3256,12 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .user-rating__item-level {
+    width: 94px;
+    padding: 0;
+  }
 }
 .user-rating__item-level span {
   padding: 4px 20px;
