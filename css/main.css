@@ -815,7 +815,6 @@ input:focus::placeholder {
   justify-content: center;
   cursor: pointer;
 }
-
 .admin-user-quantity {
   font-family: "Inter", serif;
   font-weight: 600;
@@ -824,6 +823,19 @@ input:focus::placeholder {
   color: #4f46e5;
   background: #eef2ff;
   padding: 4px 8px;
+  border-radius: 1234px;
+}
+.user-complaints {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #47bce6;
+  width: 115px;
+  height: 24px;
+  padding: 4px 8px;
+  box-sizing: border-box;
   border-radius: 1234px;
 }
 .center__top {
@@ -1362,6 +1374,8 @@ fieldset {
   background: #f6f6f6;
   border-left: 1px solid #bdbdbd;
   border-radius: 0 20px 20px 0;
+  max-height: 976px;
+  overflow: hidden;
 }
 @media screen and (max-width: 1100px) {
   .sidebar {
@@ -1455,6 +1469,7 @@ fieldset {
   flex-direction: column;
   padding: 12px 20px;
   box-sizing: border-box;
+  overflow: auto;
 }
 .profile-wrap {
   width: 100%;
