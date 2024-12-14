@@ -815,6 +815,7 @@ input:focus::placeholder {
   justify-content: center;
   cursor: pointer;
 }
+
 .admin-user-quantity {
   font-family: "Inter", serif;
   font-weight: 600;
